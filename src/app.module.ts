@@ -37,7 +37,9 @@ import { CommonModule } from './common/common.module';
       //ignoreEnvFile: true // disables ENV files entirely
     }),
     CoffeesModule,
-    CoffeeRatingModule, DatabaseModule, CommonModule
+    // CoffeeRatingModule,
+    // DatabaseModule,
+    CommonModule
   ],
   controllers: [AppController],
   providers: [AppService],
